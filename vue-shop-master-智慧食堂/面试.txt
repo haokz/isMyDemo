@@ -1,0 +1,63 @@
+1、简历
+	技能
+	项目
+	实习经历
+	获得成就
+	可适配的项目类型
+
+2、面试的时候  一定不要紧张
+
+3、校招面试高频被问的问题
+
+	布局(flex)
+	js基础  作用域....
+	vue基础 （路由  双向数据绑定）
+	原型链
+	ajax
+	promise  await  async  
+	什么叫解构赋值
+	
+------------------------------------------
+你一定要引导对方 去问你问题
+
+我都遇到了哪些问题  用到了哪些技术  （你说说你elementui  都用过哪些标签和组件啊）
+el-button   el-table...........
+
+axios  （put   delete  post  get）
+// get  和 post咱们都认识  
+
+// put  delete
+
+// 一般的接口   为四大类接口  （增删改查）
+get  查
+post 增
+put 改
+delte 删
+// 非常经典的面试题  
+// 你用没用过restful  接口 （我把这四种方式 统一叫做restful接口设计规范）
+
+我应该怎么去介绍我的项目呢
+使用背景
+	智慧食堂   电信的项目
+开发周期
+	（我只写了管控端  13天）
+使用技术栈
+	vue  vue-router  element-ui  axios  less   echarts  
+所遇到的问题
+	el-form 双向数据源绑定的问题
+	
+	element-ui  el-menu-item  开启强路由模式后  会把index的值  作为跳转路径:index="'/'+subItem.path"
+
+	default-active  激活链接  （我把路径  存储到我的session当中  问题在哪 我页面一从新加载  不变蓝色 也不激活了 ）
+	解决方案  this.activepath = window.sessionStorage.getItem('activepath');  在我的create生命周期函数当中直接进行了赋值
+
+------------------------------------------------------------------
+引导面试官（把控面试节奏的主动权）
+	1、就是你再回答我某个技术问题的时候  继续再我这段话之后  留我下个想问的
+
+	2、面试当中  人家问你的问题  脑子乱 想不起来了
+		千万不要说  我不会  
+		
+	
+
+
